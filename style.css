@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7A1728;
+    width: 400px;
+    margin: auto;
+    border: #FACAC6;
+    border-style: groove;
+}
+
+header {
+    background-color: #FACAC6;
+    background-image: url(./logo/arco-top.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 270px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px 0 100px 100px;
+}
+
+h1{
+    padding-top: 80px;
+    margin: 0;
+    font-family: 'Srisakdi', cursive;
+}
+
+h3, blockquote, a{
+    font-family: 'Cookie', cursive;
+    margin: 10px;
+}
+
+h3{
+    font-size: 27px;
+}
+
+blockquote{
+    font-size: 20px;
+}
+
+a{
+    display:inline-block;
+    margin: 0px 35px 10px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+img{
+    max-width: 40px;
+}
+
+
+
+
+
+/* --------------------------------- */
+main{
+    width: 400px;
+    height: 900px;
+    margin: auto;
+    background-image: url(./logo/arco-bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
