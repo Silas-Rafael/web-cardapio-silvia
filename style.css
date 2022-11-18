@@ -64,9 +64,30 @@ main{
     text-align: center;
 }
 
+div{
+    width: 400px;
+    height: 900px;
+    overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar { 
+
+    display: none; 
+    
+}  
+
+section{
+    margin-bottom: 20px;
+}
+
 section h1{
     padding: 30px;
     font-size: 30px;
+}
+
+section h3{
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 li{
@@ -80,4 +101,20 @@ strong{
 figure{
     display: inline-block;
     margin: 0;
+}
+
+.sabores{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+.final{
+    margin-bottom: 80px;  
+}
+
+.alt{
+    line-height: 0.1em;
+    padding-bottom: 1em;
 }
