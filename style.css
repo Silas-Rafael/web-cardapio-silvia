@@ -14,12 +14,12 @@ body {
 /* --------------------------------- */
 header {
     background-color: #FACAC6;
-    background-image: url(./logo/arco-top.png);
+    background-image: url(./logo/arco-top.svg);
     background-repeat: no-repeat;
     border: #422819 double;
     border-radius: 0px 0 100px 100px;
     width: 25rem;
-    height: 17rem;
+    height: 20rem;
     margin: auto;
     text-align: center;
 }
@@ -38,7 +38,7 @@ h2, blockquote, a{
     margin: 0.8rem;
 }
 
-h2, h3, h4, blockquote, a, strong{
+h2, h3, h4, h5, blockquote, a, strong{
     font-family: 'Cookie', cursive;
 }
 
@@ -68,7 +68,7 @@ main{
     width: 25rem;
     height: 50rem;
     margin: auto;
-    background-image: url(./logo/arco-bottom.png);
+    background-image: url(./logo/arco-bottom.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     text-align: center;
@@ -92,13 +92,20 @@ h4{
     font-size: 1.2rem;
 }
 
+p{
+    font-size: 1.2rem;
+}
+
+
 li{
-    list-style: none;
-    
+    list-style: none; 
+    text-align: center;
+ 
 }
 
 strong{
     color: #FACAC6;
+    font-size: 1.7rem;
 }
 
 figure{
@@ -119,6 +126,14 @@ figure{
     padding-bottom: 1em;
 }
 
-p{
-    font-size: 0.8rem;
+
+footer p{
+    margin: 0;
+    font-size: 1rem;
 }
+
+footer h5 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
