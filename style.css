@@ -7,6 +7,8 @@ body {
     border: #FACAC6 groove;
 }
 
+/* --------------------------------- */
+
 header {
     background-color: #FACAC6;
     background-image: url(./logo/arco-top.png);
@@ -25,7 +27,7 @@ h1{
     font-family: 'Srisakdi', cursive;
 }
 
-h3, blockquote, a{
+h2, h3,  blockquote, a{
     font-family: 'Cookie', cursive;
     margin: 10px;
 }
@@ -43,17 +45,15 @@ a{
     margin: 0px 35px 10px 35px;
     text-decoration: none;
     font-size: 20px;
+    color: black
 }
 
-img{
-    max-width: 40px;
+.button{
+    width: 40px;
 }
-
-
-
-
 
 /* --------------------------------- */
+
 main{
     width: 400px;
     height: 900px;
@@ -61,4 +61,23 @@ main{
     background-image: url(./logo/arco-bottom.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    text-align: center;
+}
+
+section h1{
+    padding: 30px;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+strong{
+    color: #FACAC6;
+}
+
+figure{
+    display: inline-block;
+    margin: 0;
 }
