@@ -174,7 +174,6 @@ h5{
     font-size: 1rem;
 }
 
-
 /* --------------doces------------------- */
 
 .doces::-webkit-scrollbar { 
@@ -194,20 +193,23 @@ h5{
     height: 17rem;
     margin: 7rem auto 10rem auto;
     border: 5px #422819 double;
-    border-radius: 25px; 
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.73);
+    box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.73);   
     overflow: visible;
 }
 
 .image{
     margin: -7rem auto 0 auto ;
-    width: 10rem;
-    height: 10rem;   
+    width: 11rem;
+    height: 10rem;  
 }
 
 .foto {
     width: 10rem;
     height: 10rem;
-    border-radius: 100%;
+    border-radius: 10rem;    
 }
 
 .disc p { 
