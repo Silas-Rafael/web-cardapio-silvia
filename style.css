@@ -67,9 +67,7 @@ blockquote, h2{
 
 .button{
     width: 3.3rem;
-    height: 3.2rem;
-    margin: 1.3rem 1rem 1rem 1rem;
-    display:inline-block;
+    height: 3.6rem;
     background-color:#fabdb85e;
     border: 0.2rem #422819 double;
     border-radius: 10% 10% 45% 45% / 11% 11% 30% 30%;
@@ -79,13 +77,24 @@ blockquote, h2{
     text-decoration: none;
     font-size: .8rem;
     color: black;
+    position:absolute;
 }
 
 .button img{
     width: 1.6rem;
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     margin-bottom: -0.35rem;
     padding: 0;
+}
+
+#buttonB{
+    top: 3.2rem;
+    left: 6.5rem;  
+}
+
+#butttonD{
+    top: 3.2rem;
+    right: 6.5rem;
 }
 
 /* -------------bolos-------------------- */
@@ -214,4 +223,19 @@ h5{
 
 .disc p { 
     font-size: 1rem;
+}
+
+/* --------------screen------------------- */
+
+@media screen and (min-width: 460px){
+    main{
+        height: 41rem;
+    }
+
+    .button:hover{
+        width: 3.7rem;
+        height: 3.8rem;
+        background-color: #f8bdb8;
+        transition: 0.2s;
+    }
 }
